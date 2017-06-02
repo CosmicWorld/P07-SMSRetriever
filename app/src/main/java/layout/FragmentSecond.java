@@ -94,7 +94,7 @@ public class FragmentSecond extends Fragment {
                 ContentResolver cr = getActivity().getContentResolver();
 
                 // The filter String
-                String filter = "body LIKE ? ";
+                String filter = "body LIKE ?";
 
                 String[] findWord = word.split(" ");
                 for (int i = 0; i < findWord.length; i++) {
